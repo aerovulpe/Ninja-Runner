@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Shinobi\app\libs\mobilecorelib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f61f078b72b778e99b50fde39bae1b269c78e8b7">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\mobilecorelib-34aa2822487b9cea778740f33d43eabda5a18a0c.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bb9ddcc8755328e1da9b4094384570cf2e92abc2.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Shinobi\app\libs\andengine-o.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e1dd871b147c9ee999cfc8e3b706575d43bfc3d">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\andengine-o-cb9707ab90d39865ddc0991296dfbefd4d40f7b6.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\classes-1983750f80cf169b8729c41813b8ddfc8525bc49.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Shinobi\app\libs\GoogleAdMobAdsSdk-6.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3">
+        <dex dex="E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.2.1-8a6c04fd54660db9a481c2c4e438c6e05f15356a.jar" />
+    </item>
+
+</items>

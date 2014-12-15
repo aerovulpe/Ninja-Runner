@@ -1,0 +1,7 @@
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\classes\debug
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bb9ddcc8755328e1da9b4094384570cf2e92abc2.jar
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.2.1-8a6c04fd54660db9a481c2c4e438c6e05f15356a.jar
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\mobilecorelib-34aa2822487b9cea778740f33d43eabda5a18a0c.jar
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\classes-1983750f80cf169b8729c41813b8ddfc8525bc49.jar
+E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\andengine-o-cb9707ab90d39865ddc0991296dfbefd4d40f7b6.jar
