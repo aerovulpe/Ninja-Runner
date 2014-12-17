@@ -1,7 +1,7 @@
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\classes\debug
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bb9ddcc8755328e1da9b4094384570cf2e92abc2.jar
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.2.1-8a6c04fd54660db9a481c2c4e438c6e05f15356a.jar
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\mobilecorelib-34aa2822487b9cea778740f33d43eabda5a18a0c.jar
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\classes-1983750f80cf169b8729c41813b8ddfc8525bc49.jar
-E:\AndroidStudioProjects\Shinobi\app\build\intermediates\pre-dexed\debug\andengine-o-cb9707ab90d39865ddc0991296dfbefd4d40f7b6.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/classes/debug
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b1cd937e82f531944e6396d327a46f9518c47998.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-93dcf62cc71acd72d0acece6b34546a3ed45e80b.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-8be2343ddbd9f439cb033f96d1ee0ac68a26a9bb.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/mobilecorelib-ac4c3dd096354b89e0c34679ec0fb1e0d2eae8d2.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/classes-d4046dfde5f54e0d7ac5a05a04a49c16c1e29454.jar
+/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/andengine-o-5fbc425b8f1699b4b466182f7c5643c6b9d386a8.jar
