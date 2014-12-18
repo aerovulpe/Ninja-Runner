@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/libs/andengine-o.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e1dd871b147c9ee999cfc8e3b706575d43bfc3d">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/andengine-o-5fbc425b8f1699b4b466182f7c5643c6b9d386a8.jar" />
-    </item>
-    <item
-        jar="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/classes-d4046dfde5f54e0d7ac5a05a04a49c16c1e29454.jar" />
-    </item>
-    <item
-        jar="/home/aerisvulpe/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b1cd937e82f531944e6396d327a46f9518c47998.jar" />
-    </item>
-    <item
-        jar="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/libs/GoogleAdMobAdsSdk-6.2.1.jar"
+        jar="E:\AndroidStudioProjects\Ninja-Runner\app\libs\GoogleAdMobAdsSdk-6.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-8be2343ddbd9f439cb033f96d1ee0ac68a26a9bb.jar" />
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.2.1-13ef03d25acb03efb6e054c2c56753e1a0161d1d.jar" />
     </item>
     <item
-        jar="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-93dcf62cc71acd72d0acece6b34546a3ed45e80b.jar" />
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-73bfb1dac9db9f8ec221e5d4a8eed60aa0ad734c.jar" />
     </item>
     <item
-        jar="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/libs/mobilecorelib.jar"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Ninja-Runner\app\libs\mobilecorelib.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="f61f078b72b778e99b50fde39bae1b269c78e8b7">
-        <dex dex="/home/aerisvulpe/AndroidStudioProjects/Shinobi/app/build/intermediates/pre-dexed/debug/mobilecorelib-ac4c3dd096354b89e0c34679ec0fb1e0d2eae8d2.jar" />
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\mobilecorelib-b5768d2f931850a05dcb4ecd3bc2701705eaf6ca.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\classes-34b8f3efcc15fd0014320cacbf10b528d4a301cf.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Ninja-Runner\app\libs\andengine-o.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e1dd871b147c9ee999cfc8e3b706575d43bfc3d">
+        <dex dex="E:\AndroidStudioProjects\Ninja-Runner\app\build\intermediates\pre-dexed\debug\andengine-o-eb3a99acbc850e547964c4dc2b11614440e88701.jar" />
     </item>
 
 </items>
