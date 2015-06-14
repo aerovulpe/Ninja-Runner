@@ -1,12 +1,7 @@
 package me.aerovulpe.ninjarunner;
 
 public interface IAsyncCallback {
-    // ===========================================================
-    // Methods
-    // ===========================================================
+    void workToDo();
 
-    public abstract void workToDo();
-
-    public abstract void onComplete();
-
+    void onComplete();
 }
