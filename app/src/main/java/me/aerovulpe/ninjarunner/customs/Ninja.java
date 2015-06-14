@@ -1,9 +1,5 @@
 package me.aerovulpe.ninjarunner.customs;
 
-import me.aerovulpe.ninjarunner.Duration;
-import me.aerovulpe.ninjarunner.MainActivity;
-import me.aerovulpe.ninjarunner.scenes.GameScene;
-
 import org.anddev.andengine.engine.handler.timer.ITimerCallback;
 import org.anddev.andengine.engine.handler.timer.TimerHandler;
 import org.anddev.andengine.entity.modifier.PathModifier;
@@ -12,6 +8,10 @@ import org.anddev.andengine.entity.primitive.Rectangle;
 import org.anddev.andengine.entity.scene.Scene;
 import org.anddev.andengine.entity.sprite.AnimatedSprite;
 import org.anddev.andengine.opengl.texture.region.TiledTextureRegion;
+
+import me.aerovulpe.ninjarunner.Duration;
+import me.aerovulpe.ninjarunner.MainActivity;
+import me.aerovulpe.ninjarunner.scenes.GameScene;
 
 public class Ninja {
 
@@ -108,7 +108,8 @@ public class Ninja {
             MainActivity.sJump.play();
         }
         mNinja.stopAnimation(4);
-        mNinja.registerEntityModifier(new PathModifier(GameScene.sJumpTime, new Path(3).to(mNinja.getX(), mNinja.getY()).to(mNinja.getX(), mNinja.getY() - 90).to(mNinja.getX(), 300)));
+        mNinja.registerEntityModifier(new PathModifier(GameScene.sJumpTime,
+                new Path(3).to(mNinja.getX(), mNinja.getY()).to(mNinja.getX(), mNinja.getY() - 90).to(mNinja.getX(), 300)));
         mScene.registerUpdateHandler(new TimerHandler(GameScene.sJumpTime, false, new ITimerCallback() {
                     @Override
                     public void onTimePassed(TimerHandler pTimerHandler) {

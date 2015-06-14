@@ -1,13 +1,13 @@
 package me.aerovulpe.ninjarunner.customs;
 
+import org.anddev.andengine.engine.handler.physics.PhysicsHandler;
+import org.anddev.andengine.entity.scene.Scene;
+import org.anddev.andengine.util.MathUtils;
+
 import me.aerovulpe.ninjarunner.GameConstants;
 import me.aerovulpe.ninjarunner.MainActivity;
 import me.aerovulpe.ninjarunner.scenes.GameScene;
 import me.aerovulpe.ninjarunner.scenes.MainMenuScene;
-
-import org.anddev.andengine.engine.handler.physics.PhysicsHandler;
-import org.anddev.andengine.entity.scene.Scene;
-import org.anddev.andengine.util.MathUtils;
 
 public class Obstacle {
 
@@ -25,7 +25,8 @@ public class Obstacle {
 
             protected void onManagedUpdate(float secondsElapsed) {
                 if (isAbove) {
-                    if (ninja.canCollide() && !ninja.isSliding() && this.collidesWith(ninja.getCollider())) {
+                    if (ninja.canCollide() && !ninja.isSliding() &&
+                            this.collidesWith(ninja.getCollider())) {
                         ninja.fall();
                     }
                 } else {

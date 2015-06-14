@@ -1,11 +1,5 @@
 package me.aerovulpe.ninjarunner.scenes;
 
-import me.aerovulpe.ninjarunner.GameConstants;
-import me.aerovulpe.ninjarunner.MainActivity;
-import me.aerovulpe.ninjarunner.customs.MySprite;
-import me.aerovulpe.ninjarunner.customs.Ninja;
-import me.aerovulpe.ninjarunner.customs.Obstacle;
-
 import org.anddev.andengine.engine.handler.physics.PhysicsHandler;
 import org.anddev.andengine.engine.handler.timer.ITimerCallback;
 import org.anddev.andengine.engine.handler.timer.TimerHandler;
@@ -19,6 +13,12 @@ import org.anddev.andengine.input.touch.TouchEvent;
 import org.anddev.andengine.util.MathUtils;
 
 import java.util.ArrayList;
+
+import me.aerovulpe.ninjarunner.GameConstants;
+import me.aerovulpe.ninjarunner.MainActivity;
+import me.aerovulpe.ninjarunner.customs.MySprite;
+import me.aerovulpe.ninjarunner.customs.Ninja;
+import me.aerovulpe.ninjarunner.customs.Obstacle;
 
 import static me.aerovulpe.ninjarunner.GameConstants.HIGH_SCORE_KEY;
 
@@ -43,8 +43,6 @@ public class GameScene {
     // Boolean flag variables
     private static boolean sIsPaused;
     private static boolean sIsOver;
-    // Array List for obstacles
-    private static ArrayList<Obstacle> sObstacles;
     private static int sBestNum;
     private static PhysicsHandler sGround1Handler;
     private static PhysicsHandler sGround2Handler;
@@ -206,12 +204,6 @@ public class GameScene {
                                            }
         );
 
-        if (sObstacles != null) {
-            sObstacles.clear();
-        } else {
-            sObstacles = new ArrayList<>();
-        }
-
         // Create and add obstacles to the sScene
         float x = 700;
         for (int i = 0; i < 5; i++) {
@@ -221,7 +213,6 @@ public class GameScene {
             }
             x = obstacle.getX();
             obstacle.addToScene(sPlayScene);
-            sObstacles.add(obstacle);
         }
 
         // Increase score every 0.55 seconds
@@ -308,7 +299,6 @@ public class GameScene {
                     }
                 })
         );
-
 
         sPlayScene.setTouchAreaBindingEnabled(true);
         return sPlayScene;
@@ -531,7 +521,6 @@ public class GameScene {
 		overScene.registerTouchArea(btnShare); */
 
         sIsOver = true;
-
         overScene.setTouchAreaBindingEnabled(true);
         return overScene;
     }

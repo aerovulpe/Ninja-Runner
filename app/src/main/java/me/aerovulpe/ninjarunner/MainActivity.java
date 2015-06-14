@@ -166,8 +166,7 @@ public class MainActivity extends LayoutGameActivity {
         eOptions.setNeedsSound(true);
         eOptions.getTouchOptions().setRunOnUpdateThread(true);
         eOptions.getRenderOptions().disableExtensionVertexBufferObjects();
-        final Engine engine = new Engine(eOptions);
-        return engine;
+        return new Engine(eOptions);
     }
 
     @Override

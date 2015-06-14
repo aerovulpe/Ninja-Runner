@@ -8,14 +8,13 @@ import org.anddev.andengine.opengl.texture.region.TextureRegion;
 import org.anddev.andengine.opengl.util.GLHelper;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.microedition.khronos.opengles.GL10;
 
 public class MySprite extends Sprite {
 
-    private List<MySprite> mChilds = new ArrayList<MySprite>();
+    private List<MySprite> mChildList = new ArrayList<>();
     private Sprite mParent;
 
     public MySprite(float x, float y, TextureRegion textureRegion) {
@@ -23,7 +22,7 @@ public class MySprite extends Sprite {
     }
 
     public void addEntity(MySprite sprite) {
-        this.mChilds.add(sprite);
+        this.mChildList.add(sprite);
         sprite.setParent(this);
     }
 
@@ -36,8 +35,8 @@ public class MySprite extends Sprite {
     protected void onManagedDraw(GL10 gL, Camera camera) {
         super.onManagedDraw(gL, camera);
 
-        for (Iterator<MySprite> it = mChilds.iterator(); it.hasNext(); ) {
-            it.next().onDraw(gL, camera);
+        for (MySprite mChild : mChildList) {
+            mChild.onDraw(gL, camera);
         }
     }
 
